@@ -8,8 +8,9 @@ Es un proyecto de distintas plantillas que planeo hacer de código libre (con es
 
 ## 2) Objetivos generales
 
-- Objetivo 1: **Desarrolar una plantilla de código libre**:
+- Objetivo 1: **Desarrolar una plantilla de código libre**:&nbsp;
   **propósito**: crear y compartir plantillas de código abierto que faciliten el desarrollo de portafolios para profesionales de la informática
 
-- Objetivo 2: **Adopción de una licencia libre GNU, GPL o similar**:&nbsp;
+- Objetivo 2: **Adopción de una licencia libre GNU, GPL o similar**:
+
   **propósito**:
