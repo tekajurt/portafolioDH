@@ -12,7 +12,7 @@ Es un proyecto de distintas plantillas que planeo hacer de código libre (con es
 
 <li>
 
-    Objetivo 1: **Desarrolar una plantilla de código libre**
+    Objetivo 1: <b>Desarrolar una plantilla de código libre</b>
         propósito: crear y compartir plantillas de código abierto que faciliten el desarrollo de portafolios para profesionales de la informática
 
 </li>
