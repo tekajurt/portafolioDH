@@ -1,7 +1,6 @@
-<h1> Proyecto de plantilla de portafolio obvio que libre y todo pero aún no se como hacerlo y este es un título demasiado largo pero insuficientemente estructurado </h1>
+# Proyecto de plantilla de portafolio obvio que libre y todo pero aún no se como hacerlo y este es un título demasiado largo pero insuficientemente estructurado
 
-<h2> 1) Definición del proyecto: 
-</h2>
+## 1) Definición del proyecto:
 
 Es un proyecto de distintas plantillas que planeo hacer de código libre (con eso de la licencia y blablabla).
 
@@ -9,10 +8,9 @@ Es un proyecto de distintas plantillas que planeo hacer de código libre (con es
 
 ---
 
-<h2> 2) Objetivos generales </h2>
+## 2) Objetivos generales
 
-    - Objetivo 1: **Desarrolar una plantilla de código libre**
-        propósito: crear y compartir plantillas de código abierto que faciliten el desarrollo de portafolios para profesionales de la informática
+- Objetivo 1: **Desarrolar una plantilla de código libre**
+  propósito: crear y compartir plantillas de código abierto que faciliten el desarrollo de portafolios para profesionales de la informática
 
-
-    - Objetivo 2:
+- Objetivo 2:
