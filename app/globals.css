@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+  text-align: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+h2 {
+  margin: 2rem 0 !important;
+}
+h3 {
+  margin: 1.5rem 0 !important;
+}
+p {
+  margin: 1.5rem 0 !important;
+}
+img {
+  z-index: 1;
+}

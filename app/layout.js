@@ -1,11 +1,8 @@
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navbar from "./componentes/navbar";
+import Navbar from "./componentes/navbar/navbar";
 import Footer from "./componentes/footer/footer";
-
-import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Portafolio Daniel Hurtado",
@@ -16,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={inter.className}>
+      <body>
         <Navbar />
         {children}
         <Footer />

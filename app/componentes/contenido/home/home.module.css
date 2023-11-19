@@ -1,0 +1,32 @@
+.datosYo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section {
+  height: 100dvh;
+}
+.contenedorImagen {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+.imagen {
+  fill: whi;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .datosYo {
+    width: 100%;
+  }
+  .row {
+    justify-content: center;
+  }
+}
