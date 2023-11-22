@@ -18,7 +18,7 @@ export default function Home() {
       <Skils />
       <Exp />
       <Educacion />
-      <Blog />
+      {/*<Blog />*/}
       <Contacto />
     </div>
   );

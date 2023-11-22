@@ -4,17 +4,23 @@ const home = () => {
   return (
     <section id="inicio" className={styles.section}>
       <Row className={styles.row}>
-        <Col sm={12} md={6} lg={4} className={styles.datosYo}>
-          <h1>¡Hola! Daniel Hurtado</h1>
-          <h2>Desarrollador web con experiencia en blablabla</h2>
+        <Col sm={12} md={6} lg={5} className={styles.datosYo}>
+          <h1 className="fade-in-left">
+            ¡Hola! soy <strong>Daniel Hurtado</strong>
+          </h1>
+          <h3 className="fade-in-left">
+            Desarrollador web <strong>Fullstack</strong> con experiencia en el
+            desarrollo de distintos proyectos, utilizando tecnologías como
+            React, Node, MongoDB, entre otras.
+          </h3>
         </Col>
-        <Col sm={12} md={6} lg={8} className={styles.contenedorImagen}>
-          <svg
+        <Col sm={12} md={6} lg={7} className={styles.contenedorImagen}>
+          <img
             width={200}
             height={200}
             className={styles.imagen}
             alt="Home Image"
-            href={"/next.svg"}
+            src={"/next.svg"}
           />
         </Col>
       </Row>

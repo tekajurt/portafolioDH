@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from "./componentes/navbar/navbar";
 import Footer from "./componentes/footer/footer";
-
+import Botones from "./componentes/botonFlotante/botones";
 export const metadata = {
   title: "Portafolio Daniel Hurtado",
   description:
@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+        <Botones />
         <Footer />
       </body>
     </html>

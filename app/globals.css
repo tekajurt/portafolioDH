@@ -11,6 +11,7 @@ section {
 }
 h2 {
   margin: 2rem 0 !important;
+  color: red !important;
 }
 h3 {
   margin: 1.5rem 0 !important;
@@ -20,4 +21,7 @@ p {
 }
 img {
   z-index: 1;
+}
+strong {
+  color: red;
 }
