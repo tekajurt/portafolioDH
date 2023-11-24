@@ -6,10 +6,21 @@
   text-align: center;
   z-index: 2;
 }
-
+.navbar:hover {
+}
+@keyframes slideIn {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
 .navbar:hover .text {
   display: flex;
   align-items: center;
+  animation: slideIn ease 0.5s;
+  transition: all 2s ease;
 }
 
 .menuContainer {
@@ -25,16 +36,8 @@
   flex-direction: row;
 }
 .link:hover {
-  background-color: rgb(63, 106, 185);
-  color: white;
-}
-@keyframes slideIn {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
+  background-color: var(--botones);
+  color: var(--letra);
 }
 
 .logo {

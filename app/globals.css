@@ -1,7 +1,21 @@
+body {
+  --color1: black;
+  --color2: grey;
+  --color3: red;
+  --color4: rgb(113, 113, 238);
+  --color5: purple;
+
+  --fondo: var(--color1);
+  --letra: var(--color2);
+  --menu: var(--color3);
+  --botones: var(--color4);
+  --detalles: var(--color5);
+}
 html {
   scroll-behavior: smooth;
   text-align: center;
 }
+
 section {
   display: flex;
   flex-direction: column;
@@ -11,7 +25,7 @@ section {
 }
 h2 {
   margin: 2rem 0 !important;
-  color: red !important;
+  color: var(--letra) !important;
 }
 h3 {
   margin: 1.5rem 0 !important;
@@ -23,5 +37,8 @@ img {
   z-index: 1;
 }
 strong {
-  color: red;
+  color: var(--letra);
+}
+
+@media (min-width: 768px) {
 }

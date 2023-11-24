@@ -1,4 +1,5 @@
 import { Col, Row } from "react-bootstrap";
+import Image from "next/image";
 import styles from "./home.module.css";
 const home = () => {
   return (
@@ -15,12 +16,11 @@ const home = () => {
           </h3>
         </Col>
         <Col sm={12} md={6} lg={7} className={styles.contenedorImagen}>
-          <img
-            width={200}
-            height={200}
+          <Image
+            fill
             className={styles.imagen}
             alt="Home Image"
-            src={"/next.svg"}
+            src={"/yo.jpg"}
           />
         </Col>
       </Row>
