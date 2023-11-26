@@ -4,7 +4,7 @@ import { TbArrowBigUpLine, TbBrandWhatsapp } from "react-icons/tb";
 
 const Botones = () => {
   return (
-    <>
+    <div className={styles.botonContainer}>
       <Button
         className={styles.botonFlotante + " btn btn-primary rounded-circle"}
         href="#inicio"
@@ -19,7 +19,7 @@ const Botones = () => {
       >
         <TbBrandWhatsapp />
       </Button>
-    </>
+    </div>
   );
 };
 

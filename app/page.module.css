@@ -1,6 +1,4 @@
 .container {
-  padding: 1.5rem;
-  margin-left: 32px;
   background-color: var(--fondo);
   color: var(--letra);
 }

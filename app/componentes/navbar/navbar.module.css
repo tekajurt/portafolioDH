@@ -1,34 +1,29 @@
 .navbar {
-  background-color: gray;
-  flex-direction: column !important;
-  height: 100%;
+  /*  un navbar vertical pegado a la izquierda*/
   position: fixed !important;
-  text-align: center;
-  z-index: 2;
-}
-.navbar:hover {
-}
-@keyframes slideIn {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
-}
-.navbar:hover .text {
-  display: flex;
-  align-items: center;
-  animation: slideIn ease 0.5s;
-  transition: all 2s ease;
-}
+  display: flex !important;
+  flex-direction: column !important;
 
-.menuContainer {
-  flex-direction: column;
+  left: 0;
+  bottom: 50%;
+  transform: translateY(50%);
+
+  /*  colores */
+
+  background-color: var(--menu);
+  border-radius: 1rem;
 }
 .menu {
   flex-direction: column !important;
 }
+
+.menuContainer {
+  flex-direction: column;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
 .link {
   display: flex !important;
   justify-content: center !important;
@@ -38,6 +33,10 @@
 .link:hover {
   background-color: var(--botones);
   color: var(--letra);
+  .text {
+    display: block;
+    overflow: wrap;
+  }
 }
 
 .logo {

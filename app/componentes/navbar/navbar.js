@@ -36,68 +36,67 @@ const navBar = () => {
   // };
 
   return (
-    <>
-      <Navbar id="navbar" className={styles.navbar /*+ stickyClass*/}>
-        <NavbarToggle aria-controls="basic-navbar-nav" />
-        <NavbarBrand className={styles.containerLogo} href="/" title="Back">
-          <img
-            className={styles.logo}
-            src="/favicon.ico"
-            alt="favicon"
-            title="favicon"
-          ></img>
-        </NavbarBrand>
-        <Navbar.Collapse className={styles.menu} id="basic-navbar-nav">
-          <Nav className={styles.menu}>
-            <Nav.Link
-              className={styles.link + " rounded"}
-              href="#inicio"
-              title="Inicio"
-            >
-              <TbHome />
-              <h6 className={styles.text}>Inicio</h6>
-            </Nav.Link>
-            <Nav.Link
-              className={styles.link + " rounded"}
-              href="#about"
-              title="Sobre mi"
-            >
-              <TbUser />
-              <h6 className={styles.text}>Sobre mi</h6>
-            </Nav.Link>
-            <Nav.Link
-              className={styles.link + " rounded"}
-              href="#proyectos"
-              title="Proyectos"
-            >
-              <TbBriefcase />
-              <h6 className={styles.text}>Proyectos</h6>
-            </Nav.Link>
-            <Nav.Link
-              className={styles.link + " rounded"}
-              href="#habilidades"
-              title="Habilidades"
-            >
-              <TbPlayFootball />
-              <h6 className={styles.text}>Habilidades</h6>
-            </Nav.Link>
-            <Nav.Link
-              className={styles.link + " rounded"}
-              href="#experiencia"
-              title="Experiencia"
-            >
-              <TbExposurePlus1 />
-              <h6 className={styles.text}>Experiencia</h6>
-            </Nav.Link>
-            <Nav.Link
-              className={styles.link + " rounded"}
-              href="#educacion"
-              title="Educación"
-            >
-              <TbSchool />
-              <h6 className={styles.text}>Educación</h6>
-            </Nav.Link>
-            {/*
+    <Navbar id="navbar" className={styles.navbar /*+ stickyClass*/}>
+      <NavbarToggle aria-controls="basic-navbar-nav" />
+      <NavbarBrand className={styles.containerLogo} href="/" title="Back">
+        <img
+          className={styles.logo}
+          src="/favicon.ico"
+          alt="favicon"
+          title="favicon"
+        ></img>
+      </NavbarBrand>
+      <Navbar.Collapse className={styles.menuContainer} id="basic-navbar-nav">
+        <Nav className={styles.menu}>
+          <Nav.Link
+            className={styles.link + " rounded"}
+            href="#inicio"
+            title="Inicio"
+          >
+            <TbHome />
+            <h6 className={styles.text}>Inicio</h6>
+          </Nav.Link>
+          <Nav.Link
+            className={styles.link + " rounded"}
+            href="#about"
+            title="Sobre mi"
+          >
+            <TbUser />
+            <h6 className={styles.text}>Sobre mi</h6>
+          </Nav.Link>
+          <Nav.Link
+            className={styles.link + " rounded"}
+            href="#proyectos"
+            title="Proyectos"
+          >
+            <TbBriefcase />
+            <h6 className={styles.text}>Proyectos</h6>
+          </Nav.Link>
+          <Nav.Link
+            className={styles.link + " rounded"}
+            href="#habilidades"
+            title="Habilidades"
+          >
+            <TbPlayFootball />
+            <h6 className={styles.text}>Habilidades</h6>
+          </Nav.Link>
+          <Nav.Link
+            className={styles.link + " rounded"}
+            href="#experiencia"
+            title="Experiencia"
+          >
+            <TbExposurePlus1 />
+            <h6 className={styles.text}>Experiencia</h6>
+          </Nav.Link>
+          <Nav.Link
+            className={styles.link + " rounded"}
+            href="#educacion"
+            title="Educación"
+          >
+            <TbSchool />
+            <h6 className={styles.text}>Educación</h6>
+          </Nav.Link>
+          {/*
 
               
             <Nav.Link
@@ -110,18 +109,17 @@ const navBar = () => {
               <h6 className={styles.text}>Blog</h6>
             </Nav.Link>
             */}
-            <Nav.Link
-              className={styles.link + " rounded"}
-              href="#contacto"
-              title="Contacto"
-            >
-              <TbMail />
-              <h6 className={styles.text}>Contacto</h6>
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </>
+          <Nav.Link
+            className={styles.link + " rounded"}
+            href="#contacto"
+            title="Contacto"
+          >
+            <TbMail />
+            <h6 className={styles.text}>Contacto</h6>
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
