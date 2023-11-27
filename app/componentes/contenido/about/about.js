@@ -1,6 +1,7 @@
+import styles from "./about.module.css";
 const about = () => {
   return (
-    <section id="about">
+    <section id="about" className={styles.container}>
       <h2>Acerca de mí</h2>
       <p>
         ¡Hola! Soy Daniel Hurtado, un apasionado desarrollador de software con

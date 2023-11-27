@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./home.module.css";
 const home = () => {
   return (
-    <section id="inicio" className={styles.section}>
+    <section id="inicio" className={styles.container}>
       <Row className={styles.row}>
         <Col sm={12} md={6} lg={5} className={styles.datosYo}>
           <h1 className="fade-in-left">

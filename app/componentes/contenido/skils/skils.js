@@ -9,7 +9,7 @@ import {
 } from "react-icons/tb";
 const skils = () => {
   return (
-    <div id="habilidades" className={styles.skils}>
+    <section id="habilidades" className={styles.skils}>
       <h2>Conocimientos técnicos</h2>
       <Row className={styles.row}>
         <Col>
@@ -28,7 +28,7 @@ const skils = () => {
           <TbBrandHtml5 className={styles.skill} title="HTML" />
         </Col>
       </Row>
-    </div>
+    </section>
   );
 };
 export default skils;

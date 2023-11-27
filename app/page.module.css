@@ -1,5 +1,10 @@
 .container {
-  background: linear-gradient(180deg, var(--fondo), var(--fondo1));
+  background: linear-gradient(
+    180deg,
+    var(--fondo-1),
+    var(--fondo),
+    var(--fondo1)
+  );
   color: var(--letra);
   overflow: hidden;
 }

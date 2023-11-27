@@ -6,8 +6,8 @@
   text-align: center;
   animation: animationText ease 2s;
 }
-.section {
-  height: 100dvh;
+.container {
+  background: var(--fondo);
 }
 .contenedorImagen {
   position: relative;

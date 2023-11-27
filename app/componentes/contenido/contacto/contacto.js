@@ -2,7 +2,7 @@ import { Col, Row } from "react-bootstrap";
 
 const contacto = () => {
   return (
-    <div id="contacto">
+    <section id="contacto">
       <h2>Contacto</h2>
 
       <Row>
@@ -28,7 +28,7 @@ const contacto = () => {
           </p>
         </Col>
       </Row>
-    </div>
+    </section>
   );
 };
 export default contacto;

@@ -4,5 +4,12 @@
   align-items: center;
   justify-content: center;
 }
+.proyect * {
+  color: var(--letraPClaro);
+}
+.container {
+  background: var(--fondo2);
+  color: var(--letraPClaro);
+}
 .containerImage {
 }

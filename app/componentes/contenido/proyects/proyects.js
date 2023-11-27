@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./proyects.module.css";
 const proyects = () => {
   return (
-    <section id="proyectos">
+    <section id="proyectos" className={styles.container}>
       <h2>Proyectos en los que he trabajado</h2>
 
       <div className={styles.proyect}>
@@ -29,7 +29,7 @@ const proyects = () => {
           </a>
         </p>
         <p>
-          Trabajé como desarrollador principal en el Proyecto A, liderando el
+          Trabajé como desarrollador principal de Cencotel, liderando el
           desarrollo del front-end y colaborando estrechamente con el equipo de
           back-end. Enfrentamos el desafío de...
         </p>

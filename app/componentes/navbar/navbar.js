@@ -38,14 +38,7 @@ const navBar = () => {
   return (
     <Navbar id="navbar" className={styles.navbar /*+ stickyClass*/}>
       <NavbarToggle aria-controls="basic-navbar-nav" />
-      <NavbarBrand className={styles.containerLogo} href="/" title="Back">
-        <img
-          className={styles.logo}
-          src="/favicon.ico"
-          alt="favicon"
-          title="favicon"
-        ></img>
-      </NavbarBrand>
+
       <Navbar.Collapse className={styles.menuContainer} id="basic-navbar-nav">
         <Nav className={styles.menu}>
           <Nav.Link
