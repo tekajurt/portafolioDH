@@ -9,7 +9,9 @@ const proyects = () => {
         <h3>Cencotel EIRL</h3>
         <p>Página web de Cencotel</p>
         <div className={styles.containerImage}>
-          <img
+          <Image
+            width={300}
+            height={200}
             className={styles.image}
             src="/images/Cencotel.png"
             alt="Página web de Cencotel EIRL"

@@ -1,20 +1,25 @@
 body {
   --color1: black;
-  --color2: rgb(86, 86, 86);
-  --color3: rgb(244, 111, 111);
-  --color4: rgb(113, 113, 238);
+  --color2: rgb(154, 152, 152);
+  --color3: rgb(148, 4, 4);
+  --color3-1: rgb(94, 0, 0);
+  --color4: rgb(73, 73, 172);
   --color5: rgb(75, 30, 75);
-
-  --fondo: var(--color1);
-  --letraH: var(--color5);
-  --letraP: var(--color4);
-  --menu: var(--color3);
+  --color6: rgb(93, 93, 93);
+  --footer: var(--color6);
+  --fondo: var(--color3);
+  --fondo1: var(--color3-1);
+  --letraH: var(--color2);
+  --letraP: var(--color1);
+  --menu: var(--color4);
   --botones: var(--color4);
   --destacarTexto: var(--color2);
+  --marginGeneral: 2.5rem;
 }
 html {
   scroll-behavior: smooth;
   text-align: center;
+  width: 100%;
 }
 
 section {
@@ -25,19 +30,32 @@ section {
   height: 100%;
 }
 h2 {
-  margin: 2rem 0 !important;
+  margin: var(--marginGeneral) !important;
   color: var(--letraH) !important;
+}
+h6 {
+  margin: 0 !important;
 }
 h3 {
   color: var(--letraH);
-  margin: 1.5rem 0 !important;
+  margin: var(--marginGeneral) !important;
 }
 p {
-  margin: 1.5rem 0 !important;
+  margin: var(--marginGeneral) !important;
   color: var(--letraP);
+}
+a:link {
+  color: var(--letraP);
+}
+a:visited {
+  color: var(--letraH);
 }
 img {
   z-index: 1;
+}
+svg {
+  z-index: 1;
+  fill: var(--fondo);
 }
 strong {
   color: var(--destacarTexto);

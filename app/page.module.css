@@ -1,4 +1,5 @@
 .container {
-  background-color: var(--fondo);
+  background: linear-gradient(180deg, var(--fondo), var(--fondo1));
   color: var(--letra);
+  overflow: hidden;
 }

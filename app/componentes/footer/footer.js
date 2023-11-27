@@ -1,29 +1,111 @@
+"use client";
 import Image from "next/image";
 import styles from "./footer.module.css";
-import { Row } from "react-bootstrap";
+import {
+  TbHome,
+  TbUser,
+  TbBriefcase,
+  TbPlayFootball,
+  TbExposurePlus1,
+  TbSchool,
+  TbBrandBlogger,
+  TbMail,
+} from "react-icons/tb";
+import {
+  Col,
+  Nav,
+  Navbar,
+  NavbarToggle,
+  NavbarBrand,
+  Row,
+} from "react-bootstrap";
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <div className={styles.footer__container}>
-        <div className={styles.footer__container__links}>
-          <div className={styles.footer__container__links__item}>
-            <Row className="text-start">
-              <h3>Productos</h3>
-              <li>Inicio</li>
-              <li>Sobre mi</li>
-              <li>Proyectos</li>
-              <li>Habilidades</li>
-              <li>Experiencia</li>
-              <li>Educación</li>
-              <li>Blog</li>
-              <li>Contacto</li>
-            </Row>
-          </div>
-        </div>
-        <div className={styles.footer__container__logo}>
-          <Image fill src="/vercel.svg" alt="logo" />
-        </div>
-      </div>
+      <Row className={styles.footer__container}>
+        <Col className={styles.footer__container__links}>
+          <Navbar
+            id="navbar"
+            className={styles.footer__container__links_menu /*+ stickyClass*/}
+          >
+            {" "}
+            <Nav className={styles.menu}>
+              <Nav.Link
+                className={styles.link + " rounded"}
+                href="#inicio"
+                title="Inicio"
+              >
+                <TbHome />
+                <h6 className={styles.text}>Inicio</h6>
+              </Nav.Link>
+              <Nav.Link
+                className={styles.link + " rounded"}
+                href="#about"
+                title="Sobre mi"
+              >
+                <TbUser />
+                <h6 className={styles.text}>Sobre mi</h6>
+              </Nav.Link>
+              <Nav.Link
+                className={styles.link + " rounded"}
+                href="#proyectos"
+                title="Proyectos"
+              >
+                <TbBriefcase />
+                <h6 className={styles.text}>Proyectos</h6>
+              </Nav.Link>
+              <Nav.Link
+                className={styles.link + " rounded"}
+                href="#habilidades"
+                title="Habilidades"
+              >
+                <TbPlayFootball />
+                <h6 className={styles.text}>Habilidades</h6>
+              </Nav.Link>
+              <Nav.Link
+                className={styles.link + " rounded"}
+                href="#experiencia"
+                title="Experiencia"
+              >
+                <TbExposurePlus1 />
+                <h6 className={styles.text}>Experiencia</h6>
+              </Nav.Link>
+              <Nav.Link
+                className={styles.link + " rounded"}
+                href="#educacion"
+                title="Educación"
+              >
+                <TbSchool />
+                <h6 className={styles.text}>Educación</h6>
+              </Nav.Link>
+              {/*
+
+              
+            <Nav.Link
+              className={styles.link + " rounded"}
+              href="#blog"
+              title="Blog"
+            >
+            
+              <TbBrandBlogger />
+              <h6 className={styles.text}>Blog</h6>
+            </Nav.Link>
+            */}
+              <Nav.Link
+                className={styles.link + " rounded"}
+                href="#contacto"
+                title="Contacto"
+              >
+                <TbMail />
+                <h6 className={styles.text}>Contacto</h6>
+              </Nav.Link>
+            </Nav>
+          </Navbar>
+        </Col>
+        <Col className={styles.footer__container__logo}>
+          <Image fill className={styles.logo} src="/vercel.svg" alt="logo" />
+        </Col>
+      </Row>
     </div>
   );
 };
