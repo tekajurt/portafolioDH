@@ -1,11 +1,12 @@
+import styles from "./contacto.module.css";
 import { Col, Row } from "react-bootstrap";
 
 const contacto = () => {
   return (
-    <section id="contacto">
-      <h2>Contacto</h2>
-
-      <Row>
+    <section id="contacto" className={styles.container}>
+      <h2>Contáctame</h2>
+      <p>para cualquier proyecto:</p>
+      <Row className={styles.row}>
         <Col xs={12} md={6}>
           <h3>Información de contacto</h3>
           <p>

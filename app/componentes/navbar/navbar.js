@@ -73,6 +73,7 @@ const navBar = () => {
             <TbPlayFootball />
             <h6 className={styles.text}>Habilidades</h6>
           </Nav.Link>
+          {/*
           <Nav.Link
             className={styles.link + " rounded"}
             href="#experiencia"
@@ -89,7 +90,6 @@ const navBar = () => {
             <TbSchool />
             <h6 className={styles.text}>Educación</h6>
           </Nav.Link>
-          {/*
 
               
             <Nav.Link

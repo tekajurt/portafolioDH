@@ -7,7 +7,7 @@
   animation: animationText ease 2s;
 }
 .container {
-  background: var(--fondo);
+  background: linear-gradient(180deg, var(--fondo1), var(--fondo));
 }
 .contenedorImagen {
   position: relative;
