@@ -5,7 +5,7 @@ const home = () => {
   return (
     <section id="inicio" className={styles.container}>
       <Row className={styles.row}>
-        <Col sm={12} md={6} lg={5} className={styles.datosYo}>
+        <Col sm={12} md={6} lg={7} xl={8} className={styles.datosYo}>
           <h1 className="fade-in-left">
             ¡Hola! soy <strong>Daniel Hurtado</strong>
           </h1>
@@ -15,7 +15,7 @@ const home = () => {
             React, Node, MongoDB, entre otras.
           </h3>
         </Col>
-        <Col sm={12} md={6} lg={7} className={styles.contenedorImagen}>
+        <Col sm={12} md={6} lg={5} xl={4} className={styles.contenedorImagen}>
           <Image
             fill
             className={styles.imagen}
