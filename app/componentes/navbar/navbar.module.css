@@ -10,7 +10,7 @@
 
   /*  colores */
 
-  background-color: var(--menu);
+  background-color: transparent;
   border-radius: 1rem;
 }
 .navbar svg {
@@ -54,4 +54,10 @@
 }
 .text {
   display: none;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row !important;
+    width: 100%;
+  }
 }

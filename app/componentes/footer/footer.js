@@ -103,7 +103,7 @@ const Footer = () => {
           </Navbar>
         </Col>
         <Col className={styles.footer__container__logo}>
-          <Image fill className={styles.logo} src="/vercel.svg" alt="logo" />
+          <Image fill className={styles.logo} src="/logo.png" alt="logo" />
         </Col>
       </Row>
     </div>

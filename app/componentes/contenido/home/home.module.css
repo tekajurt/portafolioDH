@@ -24,6 +24,7 @@
   align-items: center;
   justify-content: space-evenly;
   margin: 0 3rem;
+  height: 100dvh;
 }
 @keyframes animationImagen {
   0% {
@@ -49,7 +50,11 @@
   .datosYo {
     width: 100%;
   }
+  .contenedorImagen {
+    display: none;
+  }
   .row {
     justify-content: center;
+    height: 100dvh;
   }
 }

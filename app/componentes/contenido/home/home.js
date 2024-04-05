@@ -9,13 +9,13 @@ const home = () => {
           <h1 className="fade-in-left">
             ¡Hola! soy <strong>Daniel Hurtado</strong>
           </h1>
-          <h3 className="fade-in-left">
+          <h4 className="fade-in-left my-5">
             Desarrollador web <strong>Fullstack</strong> con experiencia en el
             desarrollo de distintos proyectos, utilizando tecnologías como
             React, Node, MongoDB, entre otras.
-          </h3>
+          </h4>
         </Col>
-        <Col sm={12} md={6} lg={5} xl={4} className={styles.contenedorImagen}>
+        <Col md={6} lg={5} xl={4} className={styles.contenedorImagen}>
           <Image
             fill
             className={styles.imagen}

@@ -8,12 +8,12 @@
   padding: 1rem;
   background-color: var(--footer);
   margin: 0 !important;
+  justify-content: space-between;
 }
 .footer__container__logo {
   position: relative;
-  width: 200;
+  width: 100%;
   height: auto;
-  aspect-ratio: 16/9;
 }
 .footer__container__links {
   display: flex;
@@ -34,10 +34,4 @@
 }
 .logo {
   margin: 0;
-}
-
-@media (max-width < 768px) {
-  .footer__container__logo {
-    display: none;
-  }
 }

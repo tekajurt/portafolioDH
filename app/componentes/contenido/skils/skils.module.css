@@ -1,10 +1,13 @@
 .skill {
   width: 100px;
   height: 100px;
+
+  z-index: 1;
 }
 .skils {
   background: linear-gradient(180deg, var(--fondo2), var(--fondo1));
 }
+
 .row {
   display: flex;
   justify-content: space-between;

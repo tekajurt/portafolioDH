@@ -1,15 +1,15 @@
 body {
-  --color1: black;
-  --color2: rgb(154, 152, 152);
-  --color3: rgb(148, 4, 4);
-  --color31: rgb(110, 3, 3);
-  --color3-1: rgb(94, 0, 0);
-  --color4: rgb(73, 73, 172);
-  --color5: rgb(75, 30, 75);
-  --color6: rgb(93, 93, 93);
-  --color7: rgb(255, 255, 255);
+  --color1: black; /* color letraP */
+  --color2: rgb(255, 0, 0); /* destacar texto y H */
+  --color3: rgb(138, 0, 0); /* fondo footer, fondo,  */
+  --color31: rgb(138, 0, 0); /* fondo-1 */
+  --color3-1: rgb(254, 254, 254); /* fondo1 */
+  --color4: rgb(138, 0, 0); /* menu, botones */
+  --color5: rgb(65, 65, 65); /* fondo2 */
+  --color6: rgb(0, 0, 0); /* letraHClaro */
+  --color7: rgb(255, 255, 255); /* letraPClaro */
 
-  --footer: var(--color6);
+  --footer: var(--color3);
   --fondo: var(--color3);
   --fondo-1: var(--color31);
   --fondo1: var(--color3-1);
@@ -35,7 +35,8 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100dvh;
+  height: 100%;
+  padding: 3rem 0;
 }
 h2 {
   margin: var(--marginGeneral) !important;
@@ -61,13 +62,14 @@ a:visited {
 img {
   z-index: 1;
 }
-svg {
-  z-index: 1;
-  fill: var(--fondo);
-}
+
 strong {
   color: var(--destacarTexto);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  section {
+    padding: 0;
+    margin: 3rem;
+  }
 }

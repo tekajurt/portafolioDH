@@ -1,10 +1,8 @@
 .container {
-  background: linear-gradient(180deg, var(--fondo1), var(--fondo-1));
 }
 .row {
   justify-content: space-between;
-  background: var(--fondo);
+  background: var(--fondo2);
   border-radius: 1rem;
-  margin: auto;
   padding: 1rem;
 }
