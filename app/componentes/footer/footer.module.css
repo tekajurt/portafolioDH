@@ -13,12 +13,16 @@
 .footer__container__logo {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
 .footer__container__links {
   display: flex;
   flex-direction: column;
-  margin-left: 32px;
+  margin: 0;
+  align-items: center;
+  fill: transparent;
 }
 .menu {
   flex-direction: column !important;
@@ -29,9 +33,7 @@
   align-items: flex-start !important;
   fill: var(--footer);
 }
-.footer__container__links_menu * {
-  fill: var(--footer);
-}
+
 .logo {
   margin: 0;
 }

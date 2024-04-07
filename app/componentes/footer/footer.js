@@ -102,7 +102,7 @@ const Footer = () => {
             </Nav>
           </Navbar>
         </Col>
-        <Col className={styles.footer__container__logo}>
+        <Col sm={12} md={10} className={styles.footer__container__logo}>
           <Image fill className={styles.logo} src="/logo.png" alt="logo" />
         </Col>
       </Row>

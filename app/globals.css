@@ -1,11 +1,12 @@
 body {
+  font-family: "Roboto", sans-serif;
   --color1: black; /* color letraP */
-  --color2: rgb(255, 0, 0); /* destacar texto y H */
+  --color2: rgb(83, 52, 222); /* destacar texto y H */
   --color3: rgb(138, 0, 0); /* fondo footer, fondo,  */
   --color31: rgb(138, 0, 0); /* fondo-1 */
   --color3-1: rgb(254, 254, 254); /* fondo1 */
   --color4: rgb(138, 0, 0); /* menu, botones */
-  --color5: rgb(65, 65, 65); /* fondo2 */
+  --color5: rgb(40, 28, 163); /* fondo2 */
   --color6: rgb(0, 0, 0); /* letraHClaro */
   --color7: rgb(255, 255, 255); /* letraPClaro */
 
@@ -61,6 +62,7 @@ a:visited {
 }
 img {
   z-index: 1;
+  max-width: 100%;
 }
 
 strong {

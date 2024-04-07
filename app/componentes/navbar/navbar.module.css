@@ -12,15 +12,21 @@
 
   background-color: transparent;
   border-radius: 1rem;
+  z-index: 2;
 }
 .navbar svg {
   fill: var(--menu);
+  background-color: transparent;
 }
 .menu {
   flex-direction: column !important;
   align-items: flex-start !important;
 }
+.link svg {
+  font-size: 24px;
 
+  background: transparent !important;
+}
 .menuContainer {
   width: 32px;
 }
