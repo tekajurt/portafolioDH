@@ -1,5 +1,6 @@
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import Navbar from "./componentes/navbar/navbar";
 import Footer from "./componentes/footer/footer";
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <Botones />
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-KTS11MXLS8" />
     </html>
   );
 }
