@@ -1,4 +1,3 @@
-import { Col, Row } from "react-bootstrap";
 import styles from "./skils.module.css";
 import {
   TbBrandNextjs,
@@ -11,23 +10,23 @@ const skils = () => {
   return (
     <section id="habilidades" className={styles.skils}>
       <h2>Conocimientos técnicos</h2>
-      <Row className={styles.row}>
-        <Col>
+      <div className={styles.row + " flex flex-wrap"}>
+        <div className="flex-1">
           <TbBrandNextjs className={styles.skill} title="NextJS" />
-        </Col>
-        <Col>
+        </div>
+        <div className="flex-1">
           <TbBrandBootstrap className={styles.skill} title="Bootstrap" />
-        </Col>
-        <Col>
+        </div>
+        <div className="flex-1">
           <TbBrandJavascript className={styles.skill} title="Javascript" />
-        </Col>
-        <Col>
+        </div>
+        <div className="flex-1">
           <TbBrandCss3 className={styles.skill} title="CSS" />
-        </Col>
-        <Col>
+        </div>
+        <div className="flex-1">
           <TbBrandHtml5 className={styles.skill} title="HTML" />
-        </Col>
-      </Row>
+        </div>
+      </div>
     </section>
   );
 };

@@ -1,29 +1,36 @@
-import { Col, Row } from "react-bootstrap";
 import Image from "next/image";
 import styles from "./home.module.css";
 const home = () => {
   return (
     <section id="inicio" className={styles.container}>
-      <Row className={styles.row}>
-        <Col md={6} lg={5} xl={4} className={styles.contenedorImagen}>
+      <div className={styles.row + " flex flex-wrap"}>
+        <div
+          className={
+            styles.contenedorImagen + " w-full md:w-1/2 lg:w-5/12 xl:w-1/3"
+          }
+        >
           <Image
             fill
             className={styles.imagen}
             alt="Home Image"
             src={"/yo.png"}
           />
-        </Col>
-        <Col sm={12} md={6} lg={7} xl={8} className={styles.datosYo}>
-          <h1 className="fade-in-left">
+        </div>
+        <div
+          className={
+            styles.datosYo + " w-full sm:w-full md:w-1/2 lg:w-7/12 xl:w-2/3"
+          }
+        >
+          <h1 className="animate-fade-in-left">
             ¡Hola! soy <strong>Daniel Hurtado</strong>
           </h1>
-          <h4 className="fade-in-left my-5">
+          <h4 className="animate-fade-in-left my-5">
             Desarrollador web <strong>Fullstack</strong> con experiencia en el
             desarrollo de distintos proyectos, utilizando tecnologías como
             React, Node, MongoDB, entre otras.
           </h4>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </section>
   );
 };
