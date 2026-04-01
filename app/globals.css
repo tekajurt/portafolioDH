@@ -1,79 +1,79 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 body {
-  font-family: "Roboto", sans-serif;
-  --color1: black; /* color letraP */
-  --color2: rgb(83, 52, 222); /* destacar texto y H */
-  --color3: rgb(138, 0, 0); /* fondo footer, fondo,  */
-  --color31: rgb(138, 0, 0); /* fondo-1 */
-  --color3-1: rgb(254, 254, 254); /* fondo1 */
-  --color4: rgb(138, 0, 0); /* menu, botones */
-  --color5: rgb(40, 28, 163); /* fondo2 */
-  --color6: rgb(0, 0, 0); /* letraHClaro */
-  --color7: rgb(255, 255, 255); /* letraPClaro */
+    font-family: 'Roboto', sans-serif;
+    --color1: black; /* color letraP */
+    --color2: rgb(222, 129, 52); /* destacar texto y H */
+    --color3: rgb(0, 76, 138); /* fondo footer, fondo,  */
+    --color31: rgb(3, 78, 241); /* fondo-1 */
+    --color3-1: rgb(254, 254, 254); /* fondo1 */
+    --color4: rgba(0, 122, 138, 0.361); /* menu, botones */
+    --color5: rgb(116, 163, 28); /* fondo2 */
+    --color6: rgb(0, 0, 0); /* letraHClaro */
+    --color7: rgb(255, 255, 255); /* letraPClaro */
 
-  --footer: var(--color3);
-  --fondo: var(--color3);
-  --fondo-1: var(--color31);
-  --fondo1: var(--color3-1);
-  --fondo2: var(--color5);
-  --letraH: var(--color2);
-  --letraP: var(--color1);
-  --letraHClaro: var(--color6);
-  --letraPClaro: var(--color7);
-  --menu: var(--color4);
-  --botones: var(--color4);
-  --destacarTexto: var(--color2);
-  --marginGeneral: 2.5rem;
-  --marginP: 0.5rem 2rem;
+    --footer: var(--color3);
+    --fondo: var(--color3);
+    --fondo-1: var(--color31);
+    --fondo1: var(--color3-1);
+    --fondo2: var(--color5);
+    --letraH: var(--color2);
+    --letraP: var(--color1);
+    --letraHClaro: var(--color6);
+    --letraPClaro: var(--color7);
+    --menu: var(--color4);
+    --botones: var(--color4);
+    --destacarTexto: var(--color2);
+    --marginGeneral: 2.5rem;
+    --marginP: 0.5rem 2rem;
 }
 html {
-  scroll-behavior: smooth;
-  text-align: center;
-  width: 100%;
+    scroll-behavior: smooth;
+    text-align: center;
+    width: 100%;
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 3rem 0;
 }
 h2 {
-  margin: var(--marginGeneral) !important;
-  color: var(--letraH) !important;
+    margin: var(--marginGeneral) !important;
+    color: var(--letraH) !important;
 }
 h6 {
-  margin: 0 !important;
+    margin: 0 !important;
 }
 h3 {
-  color: var(--letraH);
-  margin: var(--marginGeneral) !important;
+    color: var(--letraH);
+    margin: var(--marginGeneral) !important;
 }
 p {
-  margin: var(--marginP) !important;
-  color: var(--letraP);
+    margin: var(--marginP) !important;
+    color: var(--letraP);
 }
 a:link {
-  color: var(--letraP);
+    color: var(--letraP);
 }
 a:visited {
-  color: var(--letraH);
+    color: var(--letraH);
 }
 img {
-  z-index: 1;
-  max-width: 100%;
+    z-index: 1;
+    max-width: 100%;
 }
 
 strong {
-  color: var(--destacarTexto);
+    color: var(--destacarTexto);
 }
 
 @media (max-width: 768px) {
-  section {
-    padding: 0;
-    margin: 3rem;
-  }
+    section {
+        padding: 0;
+        margin: 3rem;
+    }
 }

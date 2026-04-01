@@ -21,7 +21,7 @@ const home = () => {
             styles.datosYo + " w-full sm:w-full md:w-1/2 lg:w-7/12 xl:w-2/3"
           }
         >
-          <h1 className="animate-fade-in-left">
+          <h1 className="animate2787878786-fade-in-left">
             ¡Hola! soy <strong>Daniel Hurtado</strong>
           </h1>
           <h4 className="animate-fade-in-left my-5">
