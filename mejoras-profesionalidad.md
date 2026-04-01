@@ -1,4 +1,6 @@
 # Mejoras para Hacer el Proyecto Más Profesional y Moderno
+## Revision visual
+- Ajustar UI post instalacion de tailwindcss
 
 ## 3. Implementación de Animaciones y Transiciones
 
